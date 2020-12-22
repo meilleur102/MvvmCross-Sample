@@ -15,7 +15,8 @@
         VerticalAlignment="Center">
 
         <TextBlock Text="This is the root view"/>
-        <Button Command="{Binding OpenDialogCommand}" Content="Open dialog" />
+        <Button Command="{Binding NavigateCommand}" Content="Navigate using MvvmCross" />
+        <Button Command="{Binding OpenDialogCommand}" Content="Open dialog using MvvmDialogs" />
     </StackPanel>
 
 
