@@ -1,9 +1,0 @@
-C:\Users\aitech\source\repos\MvxBase\MvxBase.Core\bin\Debug\netstandard2.0\MvxBase.Core.deps.json
-C:\Users\aitech\source\repos\MvxBase\MvxBase.Core\bin\Debug\netstandard2.0\MvxBase.Core.dll
-C:\Users\aitech\source\repos\MvxBase\MvxBase.Core\bin\Debug\netstandard2.0\MvxBase.Core.pdb
-C:\Users\aitech\source\repos\MvxBase\MvxBase.Core\obj\Debug\netstandard2.0\MvxBase.Core.csprojAssemblyReference.cache
-C:\Users\aitech\source\repos\MvxBase\MvxBase.Core\obj\Debug\netstandard2.0\MvxBase.Core.AssemblyInfoInputs.cache
-C:\Users\aitech\source\repos\MvxBase\MvxBase.Core\obj\Debug\netstandard2.0\MvxBase.Core.AssemblyInfo.cs
-C:\Users\aitech\source\repos\MvxBase\MvxBase.Core\obj\Debug\netstandard2.0\MvxBase.Core.csproj.CoreCompileInputs.cache
-C:\Users\aitech\source\repos\MvxBase\MvxBase.Core\obj\Debug\netstandard2.0\MvxBase.Core.dll
-C:\Users\aitech\source\repos\MvxBase\MvxBase.Core\obj\Debug\netstandard2.0\MvxBase.Core.pdb

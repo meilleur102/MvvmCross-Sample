@@ -1,8 +1,7 @@
-﻿using MvvmCross.ViewModels;
+﻿using MvvmCross;
+using MvvmCross.ViewModels;
+using MvvmDialogs;
 using MvxBase.Core.ViewModel;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace MvxBase.Core
 {
@@ -10,6 +9,10 @@ namespace MvxBase.Core
     {
         public override void Initialize()
         {
+            Mvx.IoCProvider.RegisterSingleton(
+                typeof(IDialogService),
+                () => new DialogService(dialogTypeLocator: new DialogTypeLocator()));
+
             RegisterAppStart<RootViewModel>();
         }
     }
