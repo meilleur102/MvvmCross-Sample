@@ -7,9 +7,8 @@ namespace MvxBase.Core.ViewModel
 
     public class RootViewModel : MvxViewModel
     {
-        
         private readonly IMvxNavigationService _navigationService;
-        
+
         public RootViewModel(IMvxNavigationService navigationService)
         {
             _navigationService = navigationService;
@@ -33,7 +32,6 @@ namespace MvxBase.Core.ViewModel
 
 
             _navigationService.Navigate<DialogViewModel>();
-
         }
     }
 }
