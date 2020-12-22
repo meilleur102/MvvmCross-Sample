@@ -1,10 +1,9 @@
 ﻿using MvvmCross.Core;
 using MvvmCross.Platforms.Wpf.Core;
-using MvvmCross.Platforms.Wpf.Views;
    
 namespace Mvx.WPF
 {
-    public partial class App : MvxApplication
+    public partial class App
     {
         protected override void RegisterSetup()
         {

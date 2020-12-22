@@ -1,8 +1,8 @@
 ﻿namespace Mvx.WPF.Views
 {
-    public partial class RootView
+    public partial class DialogView
     {
-        public RootView()
+        public DialogView()
         {
             InitializeComponent();
         }
