@@ -1,22 +1,22 @@
 ﻿using MvvmCross.Commands;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace MvxBase.Core.ViewModel
 {
 
     public class RootViewModel : MvxViewModel
     {
-        public IMvxCommand OpenDialogCommand { get; set; }
+        
         private readonly IMvxNavigationService _navigationService;
+        
         public RootViewModel(IMvxNavigationService navigationService)
         {
             _navigationService = navigationService;
             OpenDialogCommand = new MvxCommand(OpenDialog);
         }
+
+        public IMvxCommand OpenDialogCommand { get; set; }
 
         private void OpenDialog()
         {

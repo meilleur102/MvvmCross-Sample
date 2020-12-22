@@ -1,8 +1,5 @@
 ﻿using MvvmCross.ViewModels;
 using MvxBase.Core.ViewModel;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace MvxBase.Core
 {
