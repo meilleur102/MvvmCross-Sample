@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <PackageReference Include="MvvmCross" Version="7.1.2" />
+    <PackageReference Include="MvvmDialogs" Version="8.0.0" />
   </ItemGroup>
 
 </Project>
